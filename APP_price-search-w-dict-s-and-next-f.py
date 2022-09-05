@@ -1,3 +1,10 @@
+# Napisz funkcję `cena_towaru`, która dla zadanej nazwy towaru zwróci jego cenę, jeśli taki znajduje się na liście, 
+#    albo `None` jeśli towaru o podanej nazwie na liście nie ma.
+
+# Używając funkcji `cena_towaru` napisz kod, który wczyta z klawiatury od użytkownika nazwę towaru i po naciśnięciu 
+#   entera wypisze jego cenę na ekranie. Jeśli użytkownik wpisze nazwę towaru, którego nie ma na liście, program ma wypisać komunikat: "Brak towaru o podanej nazwie.".
+
+
 asortyment = [
     {'nazwa': 'jabłko', 'cena': 2.49},
     {'nazwa': 'kiwi', 'cena': 23.90},
